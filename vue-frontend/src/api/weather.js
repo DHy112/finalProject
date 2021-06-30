@@ -1,8 +1,8 @@
 import {instance} from './index';
 
 // 날씨 API
-export function get7daysWeather(lat, lon) {
-    return instance.get(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=minutely,hourly,alerts&appid=bb6aa03a2b159ae4faf856d6cb781642&units=metric&lang=kr`);
+export function get7daysWeather(lat, lon) { // Todo: ${받은apikey값} 전체를 api key 값으로 변경해주세요 ex:) avxkjalkglajkdhlkjhrg2873987529
+    return instance.get(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=minutely,hourly,alerts&appid=${받은apikey값}&units=metric&lang=kr`);
 }
 
 export let weatherData = '';

@@ -28,7 +28,7 @@
     text-align: center;
     position: relative;
     height: auto;
-    font-size: 10px; /* Todo: tfoot의 문제 - 해결 필요 */
+    font-size: 10px;
 }
 
 .foot-search-box {
